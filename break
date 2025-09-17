@@ -1,0 +1,5 @@
+for b in range(100//10):
+    for k in range(100 // 5):
+        for t in range(int(100 // 0.5)):
+            if b + k + t == 100 and b*10 + k*5 + t * 0.5 == 100:
+                print(f'b={b}, k={k}, t={t}')
